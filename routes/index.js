@@ -9,12 +9,12 @@ let Image = require('../models/images');
 
 
 router.get('/', (req,res)=>{
-    
-    Image.find({}, function(err, images){
-        // console.log(images)
-        if (err) console.log(err);
-        res.render('index',{images:images, msg: req.query.msg })
-    })
+    res.send('hello world')
+    // Image.find({}, function(err, images){
+    //     // console.log(images)
+    //     if (err) console.log(err);
+    //     res.render('index',{images:images, msg: req.query.msg })
+    // })
 })
 
 router.post('/upload', (req, res)=>{
