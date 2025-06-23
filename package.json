@@ -4,6 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node index.js",
+    "build": "echo 'Build handled by Jenkins'",
+
     "test": "mocha --exit"
   },
   "keywords": [],
