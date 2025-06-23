@@ -19,7 +19,7 @@ pipeline {
         }
        stage('npm install'){
            steps{
-               sh 'npm install'  //install npm node11
+               sh 'npm install'  //install npm node111
            }
        }
 
